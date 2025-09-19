@@ -18,7 +18,7 @@ Core Technologies
 Language: Kotlin
 Architecture: Clean Architecture + MVVM
 Dependency Injection: Dagger Hilt
-Database: Room (SQLite)
+Database: Room
 Async Programming: Coroutines + Flow
 UI Framework: Jetpack Compose
 Navigation: Navigation Compose
@@ -44,8 +44,6 @@ Features:
 Real-time data updates
 Delete individual users
 Empty state handling
-Smooth animations
-Pull-to-refresh (if implemented)
 
 🧪 Testing
 The project includes comprehensive unit tests covering all layers:
