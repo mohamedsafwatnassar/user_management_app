@@ -12,36 +12,10 @@ Data Validation: Comprehensive input validation with user-friendly error message
 CRUD Operations: Create, read, and delete user records
 Reactive Programming: Real-time updates using Flow and coroutines
 
-
-🏗️ Architecture Overview
-This application follows Clean Architecture principles with clear separation of concerns across three main layers:
-┌─────────────────────────────────────────┐
-│            PRESENTATION LAYER           │
-│   • UI (Jetpack Compose)              │
-│   • ViewModels (MVVM)                 │
-│   • UI States                         │
-└─────────────────────────────────────────┘
-                    ↕
-┌─────────────────────────────────────────┐
-│             DOMAIN LAYER               │
-│   • Use Cases                         │
-│   • Domain Models                     │
-│   • Repository Interfaces             │
-│   • Business Logic                    │
-└─────────────────────────────────────────┘
-                    ↕
-┌─────────────────────────────────────────┐
-│              DATA LAYER                │
-│   • Repository Implementation         │
-│   • Room Database                     │
-│   • Data Models & Entities            │
-│   • Mappers                           │
-└─────────────────────────────────────────┘
-
 🛠️ Technical Stack
 Core Technologies
 
-Language: Kotlin 100%
+Language: Kotlin
 Architecture: Clean Architecture + MVVM
 Dependency Injection: Dagger Hilt
 Database: Room (SQLite)
